@@ -202,7 +202,7 @@ p {
 }
 
 .qualities__item {
-  width: calc((100% - 4 * 30px) / 4);
+  flex-basis: calc((100% - 4 * 30px) / 4);
   margin-left: 30px;
 }
 
@@ -229,7 +229,7 @@ p {
 }
 
 .occuparions__item {
-  width: calc((100% - 3 * 30px) / 3);
+  flex-basis: calc((100% - 3 * 30px) / 3);
   margin-left: 30px;
 }
 
@@ -250,7 +250,7 @@ p {
 }
 
 .team__item {
-  width: calc((100% - 4 * 30px) / 4);
+  flex-basis: calc((100% - 4 * 30px) / 4);
   margin-left: 30px;
 }
 
@@ -360,7 +360,7 @@ p {
 }
 
 .projects__item {
-  width: calc((100% - 3 * 30px) / 3);
+  flex-basis: calc((100% - 3 * 30px) / 3);
   margin-left: 30px;
   margin-bottom: 30px;
 }
